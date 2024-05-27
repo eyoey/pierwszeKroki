@@ -11,6 +11,7 @@ public class PracaDomowa1_calc {
         System.out.println("Kwadrat pierwszej liczby to " + number1 * number1 + " !");
         System.out.println("Kwadrat drugiej liczby to " + number2 * number2 + " !");
 
+        //pierwszy sposób
         number1+=number2;
         System.out.println("po dodaniu: " + number1);
         number1-=number2;
@@ -22,6 +23,7 @@ public class PracaDomowa1_calc {
         number1%=number2;
         System.out.println("po modulo: " + number1);
 
+        //drugi sposob
         int addition = number1+number2;
         int substraction = number1-number2;
         int multiplication = number1*number2;
