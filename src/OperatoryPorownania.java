@@ -13,7 +13,7 @@ public class OperatoryPorownania {
         boolean result = number1 > number2;
 
         System.out.println(result);
-        System.out.println(number1 == number2);
+        System.out.println("a = b: " + (number1 == number2));
         System.out.println(number1 != number2);
         System.out.println(number1 > number2);
         System.out.println(number1 < number2);
