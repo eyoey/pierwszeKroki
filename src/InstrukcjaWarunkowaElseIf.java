@@ -1,8 +1,11 @@
+import java.util.Scanner;
+
 public class InstrukcjaWarunkowaElseIf {
 
     public static void main(String[] args) {
-
-        int number = 12;
+        Scanner scanner = new Scanner (System.in);
+        System.out.println("Podaj liczbę");
+        int number = scanner.nextInt();
 
         if(number == 0) {
             System.out.println("Liczba rowna 0");
