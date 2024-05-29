@@ -16,6 +16,7 @@ public class PracaDomowa2_ageChecker {
             System.out.println("Nie możesz dokonać zakupów w naszym sklepie");
         }
 
+
        /* if (wiek < 18 && wiek > 0) {
             System.out.println("Nie możesz dokonać zakupów w naszym sklepie");
         } else if (wiek < 0 ) {
