@@ -20,7 +20,7 @@ public class PracaDomowa3_LoopsCheck {
             Lotto[i] = Lotto[Lotto.length - 1 - i]; // =[5]
             Lotto[Lotto.length - 1 - i] = temp; // Lotto[5] = 6 = temp
 
-            //System.out.println(Lotto[i]);
+            System.out.println("iteracja nr: " + i);
         }
         for (int i=0; i<Lotto.length; i++) {
 
