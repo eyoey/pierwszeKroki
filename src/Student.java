@@ -22,4 +22,14 @@ public class Student {
     public void podajEmail() {
         System.out.println("Mój e-mail: " + email);
     }
-}
+
+    public void daneStudenta() {
+        System.out.println("Imie: " + imie);
+        System.out.println("nazwisko: " + nazwisko);
+        System.out.println("email: " + email);
+        System.out.println("Nr indeksu: " + numerIndeksu);
+        System.out.println("Login: " + login);
+    }
+
+
+    }
