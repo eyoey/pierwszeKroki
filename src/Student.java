@@ -29,7 +29,11 @@ public class Student {
         System.out.println("email: " + email);
         System.out.println("Nr indeksu: " + numerIndeksu);
         System.out.println("Login: " + login);
+      //  return imie + " " + nazwisko + " " + email + " " + numerIndeksu + " " + login;
     }
 
+    public String daneStudenta2() {
+        return imie + " " + nazwisko + " " + email + " " + numerIndeksu + " " + login;
+    }
 
     }
