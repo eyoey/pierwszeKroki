@@ -8,11 +8,11 @@ public class Student {
 
 
     public void przedstawSie() {
-        System.out.println("Nazywam sie " + imie + " " + nazwisko);
+        System.out.println("Nazywam sie: " + imie + " " + nazwisko);
     }
 
     public void zalogujSie() {
-        System.out.println("Loguje się za pomocą" + login);
+        System.out.println("Loguje się za pomocą: " + login);
     }
 
     public void podajNrIndeksu() {
