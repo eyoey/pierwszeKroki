@@ -26,16 +26,36 @@ public class PracaDomowa4_StudentChecker {
         Student3.numerIndeksu = 3;
         Student3.login = "S3_login";
 
-/*        Student1.daneStudenta();
+      /*  Student[] studenci = new Student[3];
+        studenci[0] = Student1;
+        studenci[1] = Student2;
+        studenci[2] = Student3;
+
+        for (int i = 0; i < studenci.length; i++) {
+            studenci[i].daneStudenta();
+
+        }
+
+        Student1.daneStudenta();
         Student2.daneStudenta();
         Student3.daneStudenta();*/
 
-        String [] Studenci = new String[3];
-        Studenci[0] = Student1;
-        Studenci[1] = Student2;
-        Studenci[2] = Student3;
+        String [] studenci = new String[3];
+        studenci[0] = Student1.daneStudenta2();
+        studenci[1] = Student2.daneStudenta2();
+        studenci[2] = Student3.daneStudenta2();
 
-        System.out.println(Studenci[1]);
+        // studenci[0] = stud1;
+        // studenci[1] = stud2;
+        // studenci[2] = stud3;
+
+        for (int i = 0; i < studenci.length; i++) {
+          //  studenci[i].daneStudenta();
+
+            System.out.println(studenci[i]);
+
+        }
+
     }
 
 
