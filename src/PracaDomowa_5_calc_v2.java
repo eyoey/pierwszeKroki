@@ -23,7 +23,7 @@ public class PracaDomowa_5_calc_v2 {
         System.out.println("Dodawanie: " + addition);
         System.out.println("Odejmowanie: " + subtraction);
         System.out.println("Dzielenie: " + division);
-        System.out.println("Mnozenie: " + multiplication);
+        System.out.println("Mnożenie: " + multiplication);
         System.out.println("Modulo: " + mod);
     }
 }
