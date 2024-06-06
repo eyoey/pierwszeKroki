@@ -33,6 +33,7 @@ public class Student {
     }
 
     public String daneStudenta2() {
+
         return imie + " " + nazwisko + " " + email + " " + numerIndeksu + " " + login;
     }
 
