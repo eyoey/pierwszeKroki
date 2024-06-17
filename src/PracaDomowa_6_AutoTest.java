@@ -21,12 +21,9 @@ public class PracaDomowa_6_AutoTest {
 //  public void jedz() {
 //        System.out.println("jade!");
 //   }
-
-        //    public void hamuj() {
+//    public void hamuj() {
 //        System.out.println("Hamuj!");
 //    }
-
-
 
         public void info() {
             System.out.println("Marka: " + marka);
