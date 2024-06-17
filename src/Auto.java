@@ -1,17 +1,30 @@
 public class Auto {
 
+
     public String marka;
     public String model;
     public int rok;
     public int przebieg;
 
-    public void jedz() {
-        System.out.println("jade!");
+    public Auto() {
+
     }
 
-    public void hamuj() {
-        System.out.println("Hamuj!");
+    public Auto(String marka, String model, int rok, int przebieg) {
+        this.marka = marka;
+        this.model = model;
+        this.rok = rok;
+        this.przebieg = przebieg;
     }
+
+//  public void jedz() {
+//        System.out.println("jade!");
+//   }
+
+    //    public void hamuj() {
+//        System.out.println("Hamuj!");
+//    }
+
 
 
     public void info() {
