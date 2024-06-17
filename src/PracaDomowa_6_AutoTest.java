@@ -1,36 +1,49 @@
 public class PracaDomowa_6_AutoTest {
-    public class Auto {
+
+    public static void main(String[] args) {
+
+        Auto mercedes = new Auto();
+        mercedes.marka = "Mercedes";
+        mercedes.model = "klasa S";
+        mercedes.rok = 2021;
+        mercedes.przebieg = 123450;
+
+       /* mercedes.jedz();
+        mercedes.hamuj();*/
+        mercedes.info();
+
+        System.out.println("");
 
 
-        public String marka;
-        public String model;
-        public int rok;
-        public int przebieg;
+        Auto audi = new Auto();
+        audi.marka = "Audi";
+        audi.model = "A3";
+        audi.rok = 2000;
+        audi.przebieg = 250000;
 
-        public Auto() {
+        audi.info();
 
-        }
+        System.out.println("");
 
-        public Auto(String marka, String model, int rok, int przebieg) {
-            this.marka = marka;
-            this.model = model;
-            this.rok = rok;
-            this.przebieg = przebieg;
-        }
+        Auto newauto = new Auto("volvo", "v40", 2000, 1234);
+        System.out.println(newauto.marka);
+        System.out.println(newauto.model);
+        System.out.println(newauto.rok);
+        System.out.println(newauto.przebieg);
 
-//  public void jedz() {
-//        System.out.println("jade!");
-//   }
-//    public void hamuj() {
-//        System.out.println("Hamuj!");
-//    }
+        System.out.println("");
 
-        public void info() {
-            System.out.println("Marka: " + marka);
-            System.out.println("Model: " + model);
-            System.out.println("Rok produkcji: " + rok);
-            System.out.println("Przebieg: " + przebieg);
-        }
+        Auto newauto2 = new Auto("merc", "A", 2002, 222222);
+        System.out.println(newauto2.marka);
+        System.out.println(newauto2.model);
+        System.out.println(newauto2.rok);
+        System.out.println(newauto2.przebieg);
+
+
+
+/*        Auto noName = new Auto();
+        noName.info();*/
+
+
     }
-
 }
