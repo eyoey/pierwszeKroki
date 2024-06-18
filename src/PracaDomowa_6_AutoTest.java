@@ -26,19 +26,20 @@ public class PracaDomowa_6_AutoTest {
         System.out.println("");
 
         Auto newauto = new Auto("volvo", "v40", 2000, 1234);
-        System.out.println(newauto.marka);
+        newauto.info();
+        /*System.out.println(newauto.marka);
         System.out.println(newauto.model);
         System.out.println(newauto.rok);
-        System.out.println(newauto.przebieg);
+        System.out.println(newauto.przebieg);*/
 
         System.out.println("");
 
         Auto newauto2 = new Auto("merc", "A", 2002, 222222);
-        System.out.println(newauto2.marka);
-        System.out.println(newauto2.model);
-        System.out.println(newauto2.rok);
-        System.out.println(newauto2.przebieg);
-
+        //System.out.println(newauto2.marka);
+       // System.out.println(newauto2.model);
+       // System.out.println(newauto2.rok);
+      //  System.out.println(newauto2.przebieg);
+        newauto2.info();
 
 
 /*        Auto noName = new Auto();
