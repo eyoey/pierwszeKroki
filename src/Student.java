@@ -5,6 +5,8 @@ public class Student {
     public String login;
     public String email;
     public int numerIndeksu;
+    public static String nazwaUczelni = "AGH";
+
 
 
     public void przedstawSie() {
@@ -34,7 +36,11 @@ public class Student {
 
     public String daneStudenta2() {
 
-        return imie + " " + nazwisko + " " + email + " " + numerIndeksu + " " + login;
+        return imie + " " + nazwisko + " " + email + " " + numerIndeksu + " " + login + " " + nazwaUczelni;
     }
 
+    public static void  infoUczelnia() {
+        System.out.println("Uczelnia studenta to: AHG");
     }
+
+}
