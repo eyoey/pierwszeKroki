@@ -8,6 +8,10 @@ public class Footballer extends Person {
         this.footballClub = footballClub;
     }
 
+    public void eat () {
+        System.out.println("nadpisane z klasy pilkarza");
+    }
+
     public void playFootball() {
         System.out.println("Football!, Football!, football!");
         System.out.println("Name: " + name + ", " + "age: " + age + ", " + footballClub);

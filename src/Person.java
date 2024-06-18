@@ -11,7 +11,7 @@ public class Person {
     }
 
         public void eat () {
-            System.out.println("i like eat");
+            System.out.println("i like eat (nie nadpisane)");
         }
 
         public void walk () {
