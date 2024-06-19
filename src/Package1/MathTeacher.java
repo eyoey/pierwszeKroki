@@ -10,10 +10,9 @@ public class MathTeacher extends Person {
         this.scholname = schoolname;
     }
 
-    @Override
-    public void eat() {
+/*    public void eat() {
         System.out.println("eat nadpisane");;
-    }
+    }*/
 
     public void walk() {
         super.eat();
