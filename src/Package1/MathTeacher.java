@@ -10,6 +10,16 @@ public class MathTeacher extends Person {
         this.scholname = schoolname;
     }
 
+    @Override
+    public void eat() {
+        System.out.println("eat nadpisane");;
+    }
+
+    public void walk() {
+        super.eat();
+        System.out.println("metoda walk z klasy mathteacher" );
+    }
+
     public void teachMath() {
         System.out.println("math teacher called: " + name + " " + "aged " + age + " from school " + scholname);
 

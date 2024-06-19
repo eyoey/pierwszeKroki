@@ -6,6 +6,7 @@ public class PersonTest {
         MathTeacher teacher = new MathTeacher("clark", 12, "Academy X");
         teacher.teachMath();
         teacher.eat();
+        teacher.walk();
 
         /*teacher.name = "Joe";
         teacher.age = 55;
