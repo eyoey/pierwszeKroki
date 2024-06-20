@@ -2,10 +2,8 @@ package homeworks;
 // stwórz interface WebDriver, ktory bedzie mial dwie metody get() i findElementBy()
 // Dodaj dwie klasy ChromeDriver i FirefoxDriver, które beda implementowaly ten interface
 
-import Package1.ChromeDriver;
-import Package1.FirefoxDriver;
-
-import java.util.concurrent.Callable;
+import drivers.ChromeDriver;
+import drivers.FirefoxDriver;
 
 public class PracaDomowa_8_interfaceChecker {
 
