@@ -1,6 +1,8 @@
-package Package1;
+package drivers;
 
-public class FirefoxDriver implements WebDriver{
+import drivers.WebDriver;
+
+public class FirefoxDriver implements WebDriver {
 
     @Override
     public void get() {

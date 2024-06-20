@@ -1,6 +1,6 @@
-package Package1;
+package drivers;
 
-public class ChromeDriver implements WebDriver{
+public class ChromeDriver implements WebDriver {
 
     @Override
     public void get() {
