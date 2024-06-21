@@ -1,21 +1,21 @@
 package Package1;
 
-import javax.sound.midi.Soundbank;
-
 public class User {
 
     public String username;
     public String password;
+    public int age;
 
 
     public User() {
         //System.out.println("z konstruktora");
     }
 
-    public User(String username, String password) {
+    public User(String username, String password, int age) {
         this.username = username;
         this.password = password;
-        System.out.println("Z konstruktora hello " + " " + username);
+        this.age = age;
+        //System.out.println("Z konstruktora hello " + " " + username);
 
     }
 
