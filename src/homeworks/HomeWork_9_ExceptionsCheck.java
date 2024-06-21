@@ -3,6 +3,8 @@ package homeworks;
 import Package1.InvalidAgeException;
 import Package1.User;
 
+import java.util.Scanner;
+
 public class HomeWork_9_ExceptionsCheck {
 
     // pobierz wiek od użytkownika, jeżeli będzie mniejszy od zera to wyrzuć wyjątek InvalidAgeException
@@ -12,6 +14,10 @@ public class HomeWork_9_ExceptionsCheck {
     public static void main(String[] args) throws InvalidAgeException {
         User user1 = new User("name", "pass", -1);
         int age = user1.age;
+
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.println("wprowadź wiek");
+//        int age = scanner.nextInt();
 
         if(age<0) {
             //System.out.println("age not valid");
