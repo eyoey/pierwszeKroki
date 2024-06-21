@@ -1,5 +1,6 @@
 package Package1;
 
+import drivers.NoValidBrowserName;
 import drivers.WebDriver;
 import drivers.ChromeDriver;
 import drivers.FirefoxDriver;
@@ -18,19 +19,23 @@ public class ExceptionsExample {
 
         WebDriver driver = getDriver("firefox");
         driver.get();
+/*        driver.findElementBy();
         driver.findElementBy();
-        driver.findElementBy();
-        driver.findElementBy();
+        driver.findElementBy();*/
 
     }
-        private static WebDriver getDriver(String name) {
-            if(name.equals("chrome")) {
-                return new ChromeDriver();
-            } else if (name.equals("Firefox")) {
-                return new FirefoxDriver();
-            }
-            return null;
-        }
 
+    private static WebDriver getDriver(String name) {
+        if (name.equals("chrome")) {
+            return new ChromeDriver();
+        } else if (name.equals("firefox")) {
+            return new FirefoxDriver();
+        }
+        try {
+            throw new NoValidBrowserName("bad browser name");
+        } catch (NoValidBrowserName noValidBrowserName) {
+            noValidBrowserName.printStackTrace();
+        }
+        return null;
     }
 }
