@@ -37,6 +37,6 @@ public class WebDriverSecondTest {
 
         safari.get();
         safari2.findElementBy();
-
+        firefox3.get();
     }
 }
