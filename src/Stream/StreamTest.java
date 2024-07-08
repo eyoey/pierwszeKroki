@@ -28,7 +28,7 @@ public class StreamTest {
         // peek - pozwala przeprowadzić operacje na każdym elemencie
 
 
-        //forEach - wykonanie akcji dla każdego z elementów strumienia
+        // forEach - wykonanie akcji dla każdego z elementów strumienia
         // count - zwróci ilość elementow w strumieniu
         // allMatch - sprawdza czy elementy spełniają jakieś warunki
         // collect - zwraca nowy typ na podstawie strumienia
