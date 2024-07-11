@@ -17,6 +17,7 @@ public class ListsTest {
         names.add("Ola");
         names.add("Paweł");
 
+
 /*        System.out.println(names.get(1));
         System.out.println(names.indexOf("Paweł"));
         System.out.println(names.lastIndexOf("Paweł"));
