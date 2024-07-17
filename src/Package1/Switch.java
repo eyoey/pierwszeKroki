@@ -20,7 +20,7 @@ public class Switch {
                 System.out.println("Cena frytek to 8zł");
                 break;
             default:
-                System.out.println("Brak " + danie + "a w karcie");
+                System.out.println("Brak " + danie + " w karcie");
         }
     }
 }
